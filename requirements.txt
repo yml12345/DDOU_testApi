@@ -1,0 +1,38 @@
+requests
+pytest==4.5.0
+xlrd
+pyyaml
+tavern
+selenium==3.11.0
+mock
+MySQL-python
+flask
+flask-restful
+django
+scrapy
+框架介绍
+base:基础类
+bin:run.py可执行文件
+cofig:配置文件
+    config.ini:全局配置文件
+    getConfig.py:读取配置文件
+data:测试数据文件
+    login:登陆动态参数
+    data.xls:测试用例
+    jsonData.json:测试数据
+log:日志文件
+    loginfo.md:日志文件
+    logs.py:执行日志
+page:对象层
+    enquiry.py:封装参数重新赋值的方法
+    login.py:封装login对应的方法
+report:测试报告
+tests:测试用例
+utils:工具类
+    excelData.py:定义excel文件的行和列
+    operationExcel.py:读取excel文件中的数据
+    operationJson.py:读取json文件中的数据
+    operationMysql.py:读取mysql数据库中的数据
+    operationYaml.py:读取yaml文件中的数据
+    public.py:公共方法类
+Readme.md:项目介绍
